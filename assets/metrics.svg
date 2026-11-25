@@ -2,33 +2,33 @@
   <title id="gk-met-t">Key numbers: 8-10 GKE releases a week, 100+ S3 buckets migrated with zero data loss, 100+ apps on one Jenkins pipeline, 50+ apps published</title>
   <defs>
     <linearGradient id="gk-card" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0D2233"/>
-      <stop offset="1" stop-color="#0A1626"/>
+      <stop offset="0" stop-color="#2C5FCC"/>
+      <stop offset="1" stop-color="#1D4290"/>
     </linearGradient>
     <linearGradient id="gk-num" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#2DD4BF"/>
-      <stop offset="1" stop-color="#38BDF8"/>
+      <stop offset="0" stop-color="#9CC4FF"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
     </linearGradient>
   </defs>
   <g font-family="Helvetica, Arial, sans-serif">
-    <rect x="0" y="0" width="235" height="170" rx="12" fill="url(#gk-card)" stroke="#2DD4BF" stroke-opacity="0.35"/>
+    <rect x="0" y="0" width="235" height="170" rx="12" fill="url(#gk-card)" stroke="#9CC4FF" stroke-opacity="0.35"/>
     <text x="22" y="82" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700" fill="url(#gk-num)">8-10</text>
-    <text x="22" y="112" font-size="15" fill="#E3F1F4">releases a week</text>
-    <text x="22" y="134" font-size="13" fill="#8FB8C2">whole backend on GKE</text>
+    <text x="22" y="112" font-size="15" fill="#F4F8FF">releases a week</text>
+    <text x="22" y="134" font-size="13" fill="#B9CCF0">whole backend on GKE</text>
 
-    <rect x="255" y="0" width="235" height="170" rx="12" fill="url(#gk-card)" stroke="#2DD4BF" stroke-opacity="0.35"/>
+    <rect x="255" y="0" width="235" height="170" rx="12" fill="url(#gk-card)" stroke="#9CC4FF" stroke-opacity="0.35"/>
     <text x="277" y="82" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700" fill="url(#gk-num)">100+</text>
-    <text x="277" y="112" font-size="15" fill="#E3F1F4">S3 buckets migrated</text>
-    <text x="277" y="134" font-size="13" fill="#8FB8C2">to GCS, zero data loss</text>
+    <text x="277" y="112" font-size="15" fill="#F4F8FF">S3 buckets migrated</text>
+    <text x="277" y="134" font-size="13" fill="#B9CCF0">to GCS, zero data loss</text>
 
-    <rect x="510" y="0" width="235" height="170" rx="12" fill="url(#gk-card)" stroke="#2DD4BF" stroke-opacity="0.35"/>
+    <rect x="510" y="0" width="235" height="170" rx="12" fill="url(#gk-card)" stroke="#9CC4FF" stroke-opacity="0.35"/>
     <text x="532" y="82" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700" fill="url(#gk-num)">100+</text>
-    <text x="532" y="112" font-size="15" fill="#E3F1F4">apps, one pipeline</text>
-    <text x="532" y="134" font-size="13" fill="#8FB8C2">Jenkins + Fastlane, Android</text>
+    <text x="532" y="112" font-size="15" fill="#F4F8FF">apps, one pipeline</text>
+    <text x="532" y="134" font-size="13" fill="#B9CCF0">Jenkins + Fastlane, Android</text>
 
-    <rect x="765" y="0" width="235" height="170" rx="12" fill="url(#gk-card)" stroke="#2DD4BF" stroke-opacity="0.35"/>
+    <rect x="765" y="0" width="235" height="170" rx="12" fill="url(#gk-card)" stroke="#9CC4FF" stroke-opacity="0.35"/>
     <text x="787" y="82" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700" fill="url(#gk-num)">50+</text>
-    <text x="787" y="112" font-size="15" fill="#E3F1F4">apps published</text>
-    <text x="787" y="134" font-size="13" fill="#8FB8C2">App Store and Google Play</text>
+    <text x="787" y="112" font-size="15" fill="#F4F8FF">apps published</text>
+    <text x="787" y="134" font-size="13" fill="#B9CCF0">App Store and Google Play</text>
   </g>
 </svg>
