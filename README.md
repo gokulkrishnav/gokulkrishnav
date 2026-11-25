@@ -38,6 +38,8 @@ Built end to end, working with the CTO on tooling choices.
 
 ## Tools
 
+![Main tools: Google Cloud, GKE, Kubernetes, Terraform, Docker, Cloud Build, Cloud Deploy, AWS, Jenkins, Fastlane, Azure DevOps, Git and GitHub, Python, Bash, Linux](assets/tools.svg)
+
 **Google Cloud:** GKE, Cloud Build, Cloud Deploy, Compute Engine (VMs, custom images, Managed Instance Groups), Cloud Storage, Cloud CDN, Artifact Registry, Secret Manager, IAM, Workload Identity
 
 **AWS:** S3, Lambda, CloudWatch, CloudFront, Route 53, Athena, Glue, QuickSight, cost reports and tagging
