@@ -1,16 +1,10 @@
-# Hi, I'm Gokul Krishna V
-
-**DevOps and Platform Engineer | Bengaluru, India**
+![Gokul Krishna V, DevOps and Platform Engineer](assets/hero.svg)
 
 3+ years of DevOps at an EdTech SaaS company: Kubernetes (GKE) delivery pipelines on Google Cloud, Terraform, a large AWS to GCP migration, and release automation for 100+ mobile apps. Open to DevOps, Platform, SRE and Cloud roles. Available to join immediately.
 
-## Highlights
+![Key numbers: 8-10 GKE releases a week, 100+ S3 buckets migrated with zero data loss, 100+ apps on one Jenkins pipeline, 50+ apps published](assets/metrics.svg)
 
-- Shipped the entire backend to GKE **8-10 times a week** across dev, staging and production, with approval-gated production promotion and on-demand preview environments.
-- Migrated **100+ S3 buckets (the largest alone 800+ TB)** to Google Cloud Storage with **zero data loss**, and moved every CDN from CloudFront to Cloud CDN.
-- Automated Android build and release for **100+ white-label apps** with one multi-app Jenkins + Fastlane pipeline.
-- Published **50+ apps** and maintained **100+ live apps** on the App Store and Google Play, including force-update rollouts.
-- Built alerts and live dashboards on AWS and GCP that show what failed and exactly where.
+Also: built alerts and live dashboards on AWS and GCP that show what failed and exactly where; moved every CDN from CloudFront to Cloud CDN; maintained 100+ live apps on the App Store and Google Play, including force-update rollouts.
 
 ## Selected work
 
