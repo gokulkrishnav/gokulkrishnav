@@ -1,76 +1,63 @@
 ![Gokul Krishna V, DevOps and Platform Engineer](assets/hero.svg)
 
-3+ years of DevOps at an EdTech SaaS company: Kubernetes (GKE) delivery pipelines on Google Cloud, Terraform, a large AWS to GCP migration, and release automation for 100+ mobile apps. Open to DevOps, Platform, SRE and Cloud roles. Available to join immediately.
+![whoami: Gokul Krishna V, DevOps and Platform Engineer, Bengaluru. 3+ years, GCP and AWS, GKE, Terraform, CI/CD, release automation, cloud migration. Open to work, available immediately.](assets/terminal.svg)
 
 ![Key numbers: 8-10 GKE releases a week, 100+ S3 buckets migrated with zero data loss, 100+ apps on one Jenkins pipeline, 50+ apps published](assets/metrics.svg)
 
-Also: built alerts and live dashboards on AWS and GCP that show what failed and exactly where; moved every CDN from CloudFront to Cloud CDN; maintained 100+ live apps on the App Store and Google Play, including force-update rollouts.
+## What I've built
 
-## Selected work
+![Platform CI/CD on GKE: git push or tag, Cloud Build, Artifact Registry, Cloud Deploy, dev, staging, manual approval, production](assets/pipeline-gke.svg)
 
-### Platform CI/CD on GKE (Google Cloud)
-Built end to end, working with the CTO on tooling choices.
-- Separate GCP projects for dev, staging, production and infra; environment chosen from the Git commit or tag; production only by Cloud Deploy promotion with manual approval.
-- Cloud Build and Cloud Deploy pipelines with per-environment manifests; GKE infrastructure managed in Terraform.
+<details>
+<summary><b>How the GKE platform works</b></summary>
+
+- Separate GCP projects for dev, staging, production and infra; the environment is chosen from the Git commit or tag; production only by Cloud Deploy promotion behind a manual approval.
+- Cloud Build and Cloud Deploy pipelines with per-environment manifests; GKE infrastructure in Terraform.
 - Secrets in Secret Manager, validated before every build and synced to Kubernetes; production secrets pre-synced during staging builds so promotions never ship stale values.
-- Distributed deploy lock on Cloud Storage to stop concurrent deployments from colliding.
-- Image caching by commit SHA, which cut dev builds from minutes to seconds; dependency scanning and style checks as quality gates.
-- Preview environments with automatic cleanup; Workload Identity, least-privilege IAM, HPA, and liveness and readiness probes.
+- Distributed deploy lock on Cloud Storage so concurrent deployments never collide.
+- Images cached by commit SHA, cutting dev builds from minutes to seconds; dependency scanning and style checks as quality gates.
+- Preview environments with automatic cleanup; Workload Identity, least-privilege IAM, HPA, liveness and readiness probes.
 
-### AWS to GCP migration
-- Moved S3 data to Cloud Storage with gsutil and rsync; kept transfer logs, scripted recovery of every object that failed to copy, and ran daily delta syncs until cutover.
-- Replaced each CloudFront distribution with Cloud CDN, tracked in an inventory sheet and tested for cache hits.
-- Replaced AWS Auto Scaling Groups with GCP Managed Instance Groups running Docker images from Artifact Registry.
+</details>
 
-### Android CI/CD (Jenkins + Fastlane)
-- Replaced manual builds with a 6-stage Jenkins pipeline from Git commit to Google Play (internal, alpha, beta and production tracks).
-- One pipeline for many apps, with isolated config, signing keystore and versioning for each.
-- Dockerised build environment on Compute Engine, with artifacts in Cloud Storage and images in Artifact Registry.
+![AWS to GCP migration: S3 to Cloud Storage, CloudFront to Cloud CDN, Auto Scaling Groups to Managed Instance Groups, zero data loss](assets/migration.svg)
 
-### iOS release operations
-- Apple Developer setup, certificates, provisioning profiles and push keys for each app; App Store Connect configuration.
-- Azure DevOps pipeline that pushed builds to TestFlight; handled App Review rejections through to approval.
-- Wrote the team's step-by-step runbook for launching a new iOS app.
+<details>
+<summary><b>How the migration was done</b></summary>
 
-### AWS analytics and cost visibility
-- Daily and monthly platform usage dashboard (Athena, Glue, QuickSight) for admin and learner signups and daily active users.
-- Daily AWS cost report email, then per-workload cost tracking through resource tags and a QuickSight cost dashboard.
+- Copied S3 to Cloud Storage with gsutil and rsync, kept the transfer logs, scripted recovery of every object that failed to copy, and ran daily delta syncs until cutover.
+- Replaced each CloudFront distribution with Cloud CDN, tracked old to new URLs in an inventory sheet and tested every URL for cache hits.
+- Replaced Auto Scaling Groups with Managed Instance Groups from a custom VM image, running Docker images from Artifact Registry.
 
-## Tools
+</details>
 
-![Main tools: Google Cloud, GKE, Kubernetes, Terraform, Docker, Cloud Build, Cloud Deploy, AWS, Jenkins, Fastlane, Azure DevOps, Git and GitHub, Python, Bash, Linux](assets/tools.svg)
+![Android release pipeline with Jenkins and Fastlane for 100+ apps: commit, build, test, sign, deploy, Google Play](assets/pipeline-android.svg)
 
-**Google Cloud:** GKE, Cloud Build, Cloud Deploy, Compute Engine (VMs, custom images, Managed Instance Groups), Cloud Storage, Cloud CDN, Artifact Registry, Secret Manager, IAM, Workload Identity
+<details>
+<summary><b>More: iOS releases, AWS analytics and cost tracking</b></summary>
 
-**AWS:** S3, Lambda, CloudWatch, CloudFront, Route 53, Athena, Glue, QuickSight, cost reports and tagging
+- **iOS release operations:** Apple Developer setup, certificates, provisioning profiles and push keys per app; Azure DevOps pipeline to TestFlight; App Review rejections handled through to approval; wrote the team's iOS launch runbook.
+- **Platform analytics:** daily and monthly usage dashboard (Athena, Glue, QuickSight) for signups and daily active users.
+- **Cost visibility:** daily AWS cost report email, then per-workload cost tracking with resource tags and a QuickSight dashboard.
+- **Monitoring:** alerts and live dashboards on AWS and GCP that show what failed and exactly where.
 
-**CI/CD:** Jenkins, Fastlane, Gradle, Azure DevOps, Git, GitHub
+</details>
 
-**Infrastructure and runtime:** Terraform, Docker, Kubernetes, Linux
+## Tech stack
 
-**Scripting:** Bash, Python
-
-**Mobile release:** App Store Connect, TestFlight, Google Play Console, code signing, Firebase (Cloud Messaging, Google Sign-In)
-
-## Achievements
-
-- Mentored two junior team members on building and releasing mobile apps, with written step-by-step documentation and knowledge-transfer sessions on the whole build process.
-- Taught developer account setup for iOS and Android, keystore generation and signing.
-- The team's point of contact for app deployment and release problems.
+![Skills: Google Cloud (GKE, Cloud Build, Cloud Deploy, Compute Engine, Cloud Storage, Cloud CDN, Artifact Registry, Secret Manager, IAM, Workload Identity), AWS (S3, Lambda, CloudWatch, CloudFront, Route 53, Athena, Glue, QuickSight), CI/CD (Jenkins, Fastlane, Gradle, Azure DevOps, Git, GitHub), Kubernetes, Terraform, Docker, Linux, Python, Bash, SQL, App Store Connect, TestFlight, Google Play Console, Android, Firebase, code signing, alerting, dashboards, cost reporting, Jira](assets/tools.svg)
 
 ## Experience
 
-- **DevOps Engineer**, Learnyst (Jan 2025 - Aug 2026)
-- **Mobile DevOps Engineer**, Learnyst (Jul 2023 - Dec 2024)
+| Role | Company | Period |
+|---|---|---|
+| DevOps Engineer | Learnyst | Jan 2025 - Aug 2026 |
+| Mobile DevOps Engineer | Learnyst | Jul 2023 - Dec 2024 |
 
-## Education
+**Also:** mentored two junior engineers on app build and release, with knowledge-transfer sessions and step-by-step docs; the team's go-to for deployment and release issues.
 
-B.E. in Computer and Information Sciences, RNS Institute of Technology (2019 - 2023)
+**Education:** B.E. in Computer and Information Sciences, RNS Institute of Technology (2019 - 2023)
 
-## Currently learning
+## Connect
 
-Python scripting for DevOps, and deeper Kubernetes and observability practice.
-
-## Find me
-
-[LinkedIn](https://www.linkedin.com/in/gokul-krishna-v-b5b237234/)
+[LinkedIn](https://www.linkedin.com/in/gokul-krishna-v-b5b237234/) · Open to DevOps, Platform, SRE and Cloud roles · Available immediately
