@@ -2,25 +2,25 @@
   <title id="gk-hero-t">Gokul Krishna V, DevOps and Platform Engineer</title>
   <defs>
     <linearGradient id="gk-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0A1020"/>
-      <stop offset="0.6" stop-color="#0D2233"/>
-      <stop offset="1" stop-color="#0F3A44"/>
+      <stop offset="0" stop-color="#1C3C86"/>
+      <stop offset="0.6" stop-color="#2C5FCC"/>
+      <stop offset="1" stop-color="#3B74E0"/>
     </linearGradient>
     <linearGradient id="gk-line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#2DD4BF" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#2DD4BF"/>
-      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="0" stop-color="#9CC4FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#9CC4FF"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="gk-glow" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#2DD4BF"/>
-      <stop offset="1" stop-color="#38BDF8"/>
+      <stop offset="0" stop-color="#9CC4FF"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
     </linearGradient>
     <pattern id="gk-grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#9FE6E0" stroke-opacity="0.07" stroke-width="1"/>
+      <path d="M40 0H0V40" fill="none" stroke="#CFE1FF" stroke-opacity="0.07" stroke-width="1"/>
     </pattern>
     <radialGradient id="gk-orb" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#2DD4BF" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/>
+      <stop offset="0" stop-color="#9CC4FF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#9CC4FF" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="1000" height="260" rx="14" fill="url(#gk-bg)"/>
@@ -29,16 +29,16 @@
     <animate attributeName="cx" values="840;890;840" dur="12s" repeatCount="indefinite"/>
     <animate attributeName="cy" values="60;90;60" dur="12s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="860" cy="130" r="86" fill="none" stroke="#2DD4BF" stroke-opacity="0.18"/>
-  <circle cx="860" cy="130" r="120" fill="none" stroke="#38BDF8" stroke-opacity="0.12" stroke-dasharray="3 7"/>
+  <circle cx="860" cy="130" r="86" fill="none" stroke="#9CC4FF" stroke-opacity="0.18"/>
+  <circle cx="860" cy="130" r="120" fill="none" stroke="#FFFFFF" stroke-opacity="0.12" stroke-dasharray="3 7"/>
   <path d="M40 240 C 190 240, 260 228, 400 234 S 600 250, 740 214 S 900 186, 960 196" fill="none" stroke="url(#gk-line)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="900" stroke-dashoffset="900">
     <animate attributeName="stroke-dashoffset" values="900;0;0" keyTimes="0;0.6;1" dur="5s" fill="freeze" repeatCount="indefinite"/>
   </path>
-  <text x="48" y="58" font-family="Menlo, Consolas, 'Courier New', monospace" font-size="14" fill="#5EEAD4" letter-spacing="3">PLATFORM  /  CI-CD  /  CLOUD</text>
-  <text x="48" y="122" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700" fill="#F1F8FB">Gokul Krishna V</text>
+  <text x="48" y="58" font-family="Menlo, Consolas, 'Courier New', monospace" font-size="14" fill="#CFE1FF" letter-spacing="3">PLATFORM  /  CI-CD  /  CLOUD</text>
+  <text x="48" y="122" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700" fill="#FFFFFF">Gokul Krishna V</text>
   <rect x="50" y="136" width="190" height="4" rx="2" fill="url(#gk-glow)">
     <animate attributeName="width" values="40;260;190" dur="4s" fill="freeze"/>
   </rect>
-  <text x="48" y="176" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#CFE9EE">DevOps and Platform Engineer</text>
-  <text x="48" y="206" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#8FB8C2">GKE  •  Terraform  •  CI/CD  •  AWS to GCP migration  •  Mobile release automation</text>
+  <text x="48" y="176" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#E3ECFF">DevOps and Platform Engineer</text>
+  <text x="48" y="206" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#B9CCF0">GKE  •  Terraform  •  CI/CD  •  AWS to GCP migration  •  Mobile release automation</text>
 </svg>
