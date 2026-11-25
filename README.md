@@ -1,12 +1,12 @@
-![Gokul Krishna V, DevOps and Platform Engineer](assets/hero.svg)
+![Gokul Krishna V, DevOps and Platform Engineer](assets/hero.svg?v=2)
 
-![whoami: Gokul Krishna V, DevOps and Platform Engineer, Bengaluru. 3+ years, GCP and AWS, GKE, Terraform, CI/CD, release automation, cloud migration. Open to work, available immediately.](assets/terminal.svg)
+![whoami: Gokul Krishna V, DevOps and Platform Engineer, Bengaluru. 3+ years, GCP and AWS, GKE, Terraform, CI/CD, release automation, cloud migration. Open to work, available immediately.](assets/terminal.svg?v=2)
 
-![Key numbers: 8-10 GKE releases a week, 100+ S3 buckets migrated with zero data loss, 100+ apps on one Jenkins pipeline, 50+ apps published](assets/metrics.svg)
+![Key numbers: 8-10 GKE releases a week, 100+ S3 buckets migrated with zero data loss, 100+ apps on one Jenkins pipeline, 50+ apps published](assets/metrics.svg?v=2)
 
 ## What I've built
 
-![Platform CI/CD on GKE: git push or tag, Cloud Build, Artifact Registry, Cloud Deploy, dev, staging, manual approval, production](assets/pipeline-gke.svg)
+![Platform CI/CD on GKE: git push or tag, Cloud Build, Artifact Registry, Cloud Deploy, dev, staging, manual approval, production](assets/pipeline-gke.svg?v=2)
 
 <details>
 <summary><b>How the GKE platform works</b></summary>
@@ -20,7 +20,7 @@
 
 </details>
 
-![AWS to GCP migration: S3 to Cloud Storage, CloudFront to Cloud CDN, Auto Scaling Groups to Managed Instance Groups, zero data loss](assets/migration.svg)
+![AWS to GCP migration: S3 to Cloud Storage, CloudFront to Cloud CDN, Auto Scaling Groups to Managed Instance Groups, zero data loss](assets/migration.svg?v=2)
 
 <details>
 <summary><b>How the migration was done</b></summary>
@@ -31,7 +31,7 @@
 
 </details>
 
-![Android release pipeline with Jenkins and Fastlane for 100+ apps: commit, build, test, sign, deploy, Google Play](assets/pipeline-android.svg)
+![Android release pipeline with Jenkins and Fastlane for 100+ apps: commit, build, test, sign, deploy, Google Play](assets/pipeline-android.svg?v=2)
 
 <details>
 <summary><b>More: iOS releases, AWS analytics and cost tracking</b></summary>
@@ -45,7 +45,7 @@
 
 ## Tech stack
 
-![Skills: Google Cloud (GKE, Cloud Build, Cloud Deploy, Compute Engine, Cloud Storage, Cloud CDN, Artifact Registry, Secret Manager, IAM, Workload Identity), AWS (S3, Lambda, CloudWatch, CloudFront, Route 53, Athena, Glue, QuickSight), CI/CD (Jenkins, Fastlane, Gradle, Azure DevOps, Git, GitHub), Kubernetes, Terraform, Docker, Linux, Python, Bash, SQL, App Store Connect, TestFlight, Google Play Console, Android, Firebase, code signing, alerting, dashboards, cost reporting, Jira](assets/tools.svg)
+![Skills: Google Cloud (GKE, Cloud Build, Cloud Deploy, Compute Engine, Cloud Storage, Cloud CDN, Artifact Registry, Secret Manager, IAM, Workload Identity), AWS (S3, Lambda, CloudWatch, CloudFront, Route 53, Athena, Glue, QuickSight), CI/CD (Jenkins, Fastlane, Gradle, Azure DevOps, Git, GitHub), Kubernetes, Terraform, Docker, Linux, Python, Bash, SQL, App Store Connect, TestFlight, Google Play Console, Android, Firebase, code signing, alerting, dashboards, cost reporting, Jira](assets/tools.svg?v=2)
 
 ## Experience
 
